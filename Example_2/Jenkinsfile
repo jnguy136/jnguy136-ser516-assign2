@@ -23,7 +23,7 @@ pipeline {
 
         stage('Test') {
             steps {
-                dir('project-tools/jenkins-examples/Example_2') {
+                dir('Example_2') {
                     sh 'mvn test'
                 }
             }
